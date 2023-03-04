@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor de música </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Reproductor de música</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Explorar</a></li>
+                <li><a href="#">Playlists</a></li>
+                <li><a href="#">Perfil</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="player">
+            <h2>Reproductor de música</h2>
+            <div class="player-controls">
+                <button class="previous-track">Anterior</button>
+                <button class="play-pause">Reproducir</button>
+                <button class="next-track">Siguiente</button>
+            </div>
+            <div class="track-info">
+                <img src="album-cover.jpg" alt="Portada del álbum">
+                <h3>Nombre de la canción</h3>
+                <p>Artista</p>
+            </div>
+            <div class="volume-controls">
+                <button class="volume-mute">Silenciar</button>
+                <input type="range" class="volume-slider" min="0" max="100" value="50">
+            </div>
+        </section>
+
+        <section class="comments">
+            <h2>Comentarios</h2>
+            <div class="comment">
+                <img src="user-avatar.jpg" alt="Avatar del usuario">
+                <div class="comment-text">
+                    <h3>Nombre del usuario</h3>
+                    <p>Comentario de ejemplo</p>
+                </div>
+            </div>
+            <div class="comment">
+                <img src="user-avatar.jpg" alt="Avatar del usuario">
+                <div class="comment-text">
+                    <h3>Nombre del usuario</h3>
+                    <p>Comentario de ejemplo</p>
+                </div>
+            </div>
+            <div class="comment">
+                <img src="user-avatar.jpg" alt="Avatar del usuario">
+                <div class="comment-text">
+                    <h3>Nombre del usuario</h3>
+                    <p>Comentario de ejemplo</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Derechos reservados © 2023</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
